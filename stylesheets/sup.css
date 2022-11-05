@@ -1,0 +1,267 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: #0f0f0ff3;
+    font-family: sans-serif;
+}
+
+.list {
+    margin-top: -2%;
+}
+
+.list a {
+    color:crimson;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.list a:hover {
+    color: white;
+}
+
+.list ul {
+    color: crimson;
+    font-size: 150%;
+    font-family: sans-serif;
+    margin: 2% 0 7% 8%
+}
+
+.content {
+    animation: ani 1.5s forwards;
+}
+
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.txt {
+    color: white;
+    margin: -3% 8% 7% 8%;
+    font-size: 19px;
+}
+
+p {
+    text-indent: 3ch;
+}
+  
+.nwsttl {
+    margin: -5% 0 4% 0;
+}
+
+.newsttl {
+    margin: 0 0 0 9%;
+    font-size: 30px;
+    color: white
+}
+
+.fttl {
+    margin: 3% 0 4% 0;
+}
+
+.tables, tr, td {
+    color:white;
+    font-size: 25px;
+    margin: 0 8% 0 8%;
+    border: 1px solid crimson;
+    border-collapse: collapse;
+}
+
+.tables tr td a {
+    color: white;
+    text-decoration: none;
+}
+
+.tables tr td a:hover {
+    color: darkorange;
+}
+
+.table3 {
+    display: flex;
+    justify-content: center;
+    margin-top: -5%;
+}
+
+.line {
+    height: 1px;
+    background-color: crimson;
+    margin: 0.3% 8% 0% 8%;
+    color: crimson;
+}
+
+.audi {
+    display: flex;
+    justify-content: center;
+}
+
+.topnav {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color:#0f0f0ff3;
+    align-content: center;
+}
+
+.topnav a {
+    color:crimson;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    padding: 8px;
+    padding-top: 19px;
+    text-align: center;
+}
+
+.topnav a:hover {
+    color:darkorange;
+    animation: hover 2s forwards;
+    border-bottom: 2px solid crimson;
+}
+
+@keyframes hover {
+    from {background-color: rgba(255, 255, 255, 0);}
+    to {background-color: rgba(255, 255, 255, 0.086);}
+}
+
+.topnav a.active {
+    border-color: crimson;
+    color: white;
+    border-bottom: 2px solid white;
+}
+
+h1 {
+    color: crimson;
+    background-color: #0f0f0ff6;
+    padding: 10px;
+    font-size: 4vw;
+    font-family: Sans-serif;
+    margin: 0px;
+    text-align:left;
+}
+
+img {
+    background-size: contains;
+    max-width: 4em;
+    height:auto;
+    margin: 4px;
+    border-bottom: 2px solid transparent;
+}
+
+.coding {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.coding img {
+    background-size: contains;
+    max-width: 9em;
+}
+
+.coding h2 {
+    color:white;
+    font-size: 30px;
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    animation: 2s anim-lineUp ease-out forwards;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+}
+
+.video iframe {
+    margin: -6% 2% 0 2%;
+    width: 1080px;
+    height: 600px;
+}
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateX(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+}
+
+.bottpanel {
+    overflow: hidden;
+    background-color: #0f0f0ff3;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.6em;
+    color: crimson;
+    text-align: center;
+}
+
+.bottpanel a {
+    color: crimson;
+}
+
+.bottpanel a:hover {
+    text-decoration: none;
+}
+.developers {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: auto;
+    scroll-behavior: smooth;
+    margin: -3% 8% 7% 8%;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.developers::-webkit-scrollbar {
+    display: none;
+}
+
+.developers img {
+    align-content: center;
+    border-radius: 50%;
+    max-width: 9em;
+    align-self: center;
+}
+
+.developers h3 {
+    color:aliceblue;
+    text-align: center;
+    align-self: center;
+}
+
+.developers div {
+    margin-right: 25px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+}
+
+.developers div:hover{
+    border: 1px solid crimson;
+}
+
+.developers a {
+    text-decoration: none;
+}
